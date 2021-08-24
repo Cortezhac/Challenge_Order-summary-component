@@ -38,7 +38,7 @@ body {
 }
 
 .card {
-    background-color: hsl(225, 100%, 98%);
+    background-color: white;
     border-radius: 20px;
     width: 25%;
     z-index: 1;
@@ -61,9 +61,12 @@ body {
 
 .bar {
     display: flex;
+    background-color: hsl(225, 100%, 98%);
     align-items: center;
     justify-content: space-between;
     margin-top: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 .bar > a {
